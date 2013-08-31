@@ -98,7 +98,24 @@
       .footer a {
         color: #ccccff;
       }
+
+      div.addthis_toolbox {
+        width:180px;
+	margin: 0 auto;
+      }
     </style>
+    <!-- Google Analytics -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-43679523-1');
+	ga('send', 'pageview');
+
+	</script>
+    <!-- End Google Analytics -->v
   </head>
   <body>
 
@@ -172,7 +189,7 @@
                 <h3>10</h3> <p>days left</p>
                 </div>
               </div>
-            </div>
+           </div>
           </div>
           <div class="row-fluid">
           <div class="span10 offset1">
@@ -193,10 +210,16 @@
           </div>
           <div class="row-fluid">
           <div class="span8 offset2 social">
-            <!-- Social buttons are not included in default Bootstrap. -->
-            <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
-            <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-            <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+		<!-- AddThis Button BEGIN -->
+		<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+			<a class="addthis_button_preferred_1"></a>
+			<a class="addthis_button_preferred_2"></a>
+			<a class="addthis_button_compact"></a>
+			<a class="addthis_counter addthis_bubble_style"></a>
+		</div>
+		<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52220b01116b6a29"></script>
+		<!-- AddThis Button END -->
           </div>
           </div>
         </div>
@@ -299,6 +322,16 @@
         </div>
       </div>
     </div>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-43679523-1', 'mightypixel-bitstarter-mooc.herokuapp.com');
+	  ga('send', 'pageview');
+
+	</script>
   </body>
 </html>
 
